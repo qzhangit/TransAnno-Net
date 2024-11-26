@@ -30,10 +30,9 @@ In the first step of this, we merge data from different sources into a unified f
 ```python
 git clone https://github.com/qzhangit/TransAnno-Net.git
 ```
-<br>
 2.prepare the training and test dataset
 <br>
-* Prepare your gene `expression matrix`, convert it to ```h5ad``` format and process it with the `preprocess.py` file.
+* Prepare your gene `expression matrix`, convert it to `h5ad` format and process it with the `preprocess.py` file. <br>
 *  `data/PanglaoDB_Lung.h5ad` file is the selected gene.
 <br>
 3.start fintune training
@@ -41,13 +40,11 @@ git clone https://github.com/qzhangit/TransAnno-Net.git
 ```python
 nohup python -m torch.distributed.launch --nproc_per_node=n Raw_finetune.py > nohup.out &  # n is the number of GPUs.
 ```
-<br>
 4.predictions of TransAnno-Net
 <br>
 ```python
 python predict.py
 ```
-<br>
 And congratulations, you have just used TransAnno-Net for your own data! 
 
 # Data
