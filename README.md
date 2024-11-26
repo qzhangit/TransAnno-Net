@@ -15,13 +15,24 @@ https://cblast.gao-lab.org/
 
 | Dataset | Species | Organ |Number of cell types | cell numbers | Gene numbers |Protocols | Accession ID |
 | :---- | :----: | ----: | :---- | :----: | ----: | :---- | :----: |
-| PanglaoDB | 单元格2 | 单元格3 | 单元格1 | 单元格2 | 单元格3 | 单元格1 | 单元格2 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
-| 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 | 单元格6 | 单元格4 | 单元格5 |
+| PanglaoDB | Mouse | Lung | \ | 100024 | 45549 | microwell-seq, 10x chromium, Smart-seq2, drop-seq, SMART-seq2 | (https://panglaodb.se/) |
+| GSE267861 | / | / | 12 | 24520 | 32285 | 10x chromium | GSE267861 |
+| GSE264032 | / | / | 16 | 31928 | 32285 | 10x chromium | GSE264032 |
+| ALIGNED_Mm
+_Lung (AML)
+ | / | / | 17 | 16599 | 25174 | unknown | (https://cblast.gao-lab.org/) |
+| Quake_10x
+_Lung (Q10xL)
+ | / | / | 13 | 5449 | 23341 | 10x chromium | / |
+| ALIGNED_Mm
+_Trachea (AMT)
+ | / | Trachea | 18 | 12619 | 33948 | unknown | / |
+| ALIGNED_Mm
+_Kidney (AMK)
+ | / | Kidney | 37 | 63659 | 35210 | unknown | / |
+| ALIGNED_Mm
+_Pancreas (AMP)
+ | / | Pancreas | 22 | 3450 | 25410 | unknown | / |
+| Plasschaert (PT) | / | Trachea | 8 | 6977 | 28205 | inDrop | / |
+| Baron_mouse (BMP) | / | Pancreas | 13 | 1886 | 14877 | inDrop | / |
+
