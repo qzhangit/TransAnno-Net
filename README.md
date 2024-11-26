@@ -13,7 +13,8 @@ pandas==1.5.1
 # Diagram of TransAnno-Net framework
 
 TransAnnoNet is a deep learning framework based on migration learning and Transformer architecture designed to provide efficient and accurate cell type annotation for large-scale scRNA-seq datasets of mouse lung organs.There are four main steps: data preparation, data preprocessing, pre-training and fine-tuning of the model for the cell type annotation task, and performance evaluation. <br>
-The diagram and workflows of TranAnno-Net framework is shown as below
+<br>
+The diagram and workflows of TranAnno-Net framework is shown as below.
 ![The diagram and workflows of TranAnno-Net framework is shown as below](https://github.com/qzhangit/TransAnno-Net/blob/main/Picture/framework.png)
 
 # Data
