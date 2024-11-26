@@ -38,12 +38,9 @@ git clone https://github.com/qzhangit/TransAnno-Net.git
 3.start fintune training
 <br>
 ```python
-nohup python -m torch.distributed.launch --nproc_per_node=```
-n```
- Raw_finetune.py >nohup.out & <br>
+nohup python -m torch.distributed.launch --nproc_per_node=n Raw_finetune.py >nohup.out & <br>
 ```
-```
-n
+```n
 ```
 is the number of GPUs
 4.predictions of TransAnno-Net
