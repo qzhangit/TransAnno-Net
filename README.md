@@ -23,14 +23,14 @@ The diagram and workflows of TranAnno-Net framework is shown as below.
 In the first step of this, we merge data from different sources into a unified file; in the second step, the model receives the gene expression matrix of the scRNA-seq data as input and preprocesses the data using SCANPY, including filtering of low-quality cells, normalization, as well as logarithmic transformation and selection of high-variant genes. In the third step, TransAnno-Net was pre-trained on unlabeled large-scale scRNA-seq datasets to identify potential features of cell type representations, which helps to eliminate batch effects between datasets. It is then fine-tuned on several specific artificially labeled target datasets. Finally, the model performance is fully evaluated to validate the usability and generalizability of the model.
 
 # How to use the TransAnno-Net?
-0.fully tested with Ubuntu 18.04 LTS, Python 3.8 with PyTorch 1.8.1 as the backend in a server equipped with Nvidia GTX 3090 GPUs
+0.fully tested with Ubuntu 18.04 LTS, Python 3.8 with PyTorch 1.8.1 as the backend in a server equipped with Nvidia GTX 3090 GPUs <br>
 1.clone the repo to local directory
 ```python
 git clone https://github.com/qzhangit/TransAnno-Net.git
 ```
 2.prepare the training and test dataset
 * Prepare your gene `expression matrix`, convert it to `h5ad` format and process it with the `preprocess.py` file. <br>
-*  `data/PanglaoDB_Lung.h5ad` file is the selected gene.
+*  `data/PanglaoDB_Lung.h5ad` file is the selected gene. <br>
 3.start fintune training
 ```python
 nohup python -m torch.distributed.launch --nproc_per_node=n Raw_finetune.py > nohup.out &  # n is the number of GPUs.
