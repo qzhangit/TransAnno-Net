@@ -15,7 +15,8 @@ pandas==1.5.1
 TransAnnoNet is a deep learning framework based on migration learning and Transformer architecture designed to provide efficient and accurate cell type annotation for large-scale scRNA-seq datasets of mouse lung organs.There are four main steps: data preparation, data preprocessing, pre-training and fine-tuning of the model for the cell type annotation task, and performance evaluation. <br>
 <br>
 The diagram and workflows of TranAnno-Net framework is shown as below.
-![The diagram and workflows of TranAnno-Net framework is shown as below](https://github.com/qzhangit/TransAnno-Net/blob/main/Picture/framework.png)
+![The diagram and workflows of TranAnno-Net framework is shown as below](https://github.com/qzhangit/TransAnno-Net/blob/main/Picture/framework.png) <br>
+In the first step of this, we merge data from different sources into a unified file; in the second step, the model receives the gene expression matrix of the scRNA-seq data as input and preprocesses the data using SCANPY, including filtering of low-quality cells, normalization, as well as logarithmic transformation and selection of high-variant genes. In the third step, TransAnno-Net was pre-trained on unlabeled large-scale scRNA-seq datasets to identify potential features of cell type representations, which helps to eliminate batch effects between datasets. It is then fine-tuned on several specific artificially labeled target datasets. Finally, the model performance is fully evaluated to validate the usability and generalizability of the model.
 
 # Data
 The data can be downloaded from these links.
