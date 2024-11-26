@@ -14,7 +14,7 @@ https://www.ncbi.nlm.nih.gov/geo/
 https://cblast.gao-lab.org/
 
 | Dataset | Species | Organ |Number of cell types | cell numbers | Gene numbers |Protocols | Accession ID |
-| :---- | :----: | ----: | :---- | :----: | ----: | :---- | :----: |
+| :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | PanglaoDB | Mouse | Lung | \ | 100024 | 45549 | microwell-seq, 10x chromium, Smart-seq2, drop-seq, SMART-seq2 | (https://panglaodb.se/) |
 | GSE267861 | 〃 | 〃 | 12 | 24520 | 32285 | 10x chromium | GSE267861 |
 | GSE264032 | 〃 | 〃 | 16 | 31928 | 32285 | 10x chromium | GSE264032 |
