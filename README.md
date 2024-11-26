@@ -24,6 +24,7 @@ In the first step of this, we merge data from different sources into a unified f
 
 # How to use the TransAnno-Net?
 0.fully tested with Ubuntu 18.04 LTS, Python 3.8 with PyTorch 1.8.1 as the backend in a server equipped with Nvidia GTX 3090 GPUs <br>
+<br>
 1.clone the repo to local directory
 ```python
 git clone https://github.com/qzhangit/TransAnno-Net.git
@@ -31,6 +32,7 @@ git clone https://github.com/qzhangit/TransAnno-Net.git
 2.prepare the training and test dataset
 * Prepare your gene `expression matrix`, convert it to `h5ad` format and process it with the `preprocess.py` file. <br>
 *  `data/PanglaoDB_Lung.h5ad` file is the selected gene. <br>
+<br>
 3.start fintune training
 ```python
 nohup python -m torch.distributed.launch --nproc_per_node=n Raw_finetune.py > nohup.out &  # n is the number of GPUs.
