@@ -2,6 +2,8 @@
 A Deep Learning Framework Based on Migration Learning and Transformer Architecture
 # Install
 Software version reference requirements.txt <br>
+```python
+pip --no-cache-dir install -r requirements.txt <br>
 torch==1.8.1+cu111 <br>
 torchvision==0.9.1+cu111 <br>
 transformers==4.31.0 <br>
@@ -10,6 +12,7 @@ scikit-learn==1.3.2 <br>
 scipy==1.9.0 <br>
 numpy==1.22.4 <br>
 pandas==1.5.1
+```
 # Diagram of TransAnno-Net framework
 
 TransAnnoNet is a deep learning framework based on migration learning and Transformer architecture designed to provide efficient and accurate cell type annotation for large-scale scRNA-seq datasets of mouse lung organs.There are four main steps: data preparation, data preprocessing, pre-training and fine-tuning of the model for the cell type annotation task, and performance evaluation. <br>
@@ -28,15 +31,28 @@ git clone https://github.com/qzhangit/TransAnno-Net.git
 ```
 2.prepare the training and test dataset
 <br>
-* Prepare your gene ```expression matrix```, convert it to ```h5ad``` format and process it with the ```preprocess.py``` file. ```data/PanglaoDB_Lung.h5ad``` file is the selected gene.
-
+* Prepare your gene ```expression matrix```, convert it to ```h5ad``` format and process it with the ```preprocess.py``` file.
+*  ```data/PanglaoDB_Lung.h5ad``` file is the selected gene.
+<br>
+3.start fintune training
+<br>
+```python
+nohup python -m torch.distributed.launch --nproc_per_node=```n``` Raw_finetune.py >nohup.out & <br>
+```
+```n```is the number of GPUs
+4.predictions of TransAnno-Net
+<br>
+```python
+python predict.py
+```
+And congratulations, you have just used TransAnno-Net for your own data! 
 
 # Data
 The data can be downloaded from these links.
-https://panglaodb.se/
-https://www.ncbi.nlm.nih.gov/geo/
+https://panglaodb.se/ <br>
+https://www.ncbi.nlm.nih.gov/geo/ <br>
 https://cblast.gao-lab.org/
-
+<br>
 | Dataset | Species | Organ |Number of cell types | cell numbers | Gene numbers |Protocols | Accession ID |
 | :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | PanglaoDB | Mouse | Lung | \ | 100024 | 45549 | microwell-seq, 10x chromium, Smart-seq2, drop-seq, SMART-seq2 | (https://panglaodb.se/) |
