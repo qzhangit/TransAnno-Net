@@ -8,6 +8,6 @@ Software version reference requirements.txt
 
 # Data
 The data can be downloaded from these links.
-https://panglaodb.se/ \n
-https://www.ncbi.nlm.nih.gov/geo/ \n
+https://panglaodb.se/
+https://www.ncbi.nlm.nih.gov/geo/
 https://cblast.gao-lab.org/
