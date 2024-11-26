@@ -33,8 +33,8 @@ git clone https://github.com/qzhangit/TransAnno-Net.git
 <br>
 2.prepare the training and test dataset
 <br>
-* Prepare your gene ```expression matrix```, convert it to ```h5ad``` format and process it with the ```preprocess.py``` file.
-*  ```data/PanglaoDB_Lung.h5ad``` file is the selected gene.
+* Prepare your gene `expression matrix`, convert it to ```h5ad``` format and process it with the `preprocess.py` file.
+*  `data/PanglaoDB_Lung.h5ad` file is the selected gene.
 <br>
 3.start fintune training
 <br>
