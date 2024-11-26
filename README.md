@@ -2,6 +2,14 @@
 A Deep Learning Framework Based on Migration Learning and Transformer Architecture
 # Install
 Software version reference requirements.txt
+torch==1.8.1+cu111
+torchvision==0.9.1+cu111
+transformers==4.31.0
+scanpy==1.9.1
+scikit-learn==1.3.2
+scipy==1.9.0
+numpy==1.22.4
+pandas==1.5.1
 # Diagram of TransAnno-Net framework
 
 TransAnnoNet is a deep learning framework based on migration learning and Transformer architecture designed to provide efficient and accurate cell type annotation for large-scale scRNA-seq datasets of mouse lung organs.There are four main steps: data preparation, data preprocessing, pre-training and fine-tuning of the model for the cell type annotation task, and performance evaluation.
