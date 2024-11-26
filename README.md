@@ -40,7 +40,7 @@ git clone https://github.com/qzhangit/TransAnno-Net.git
 ```python
 nohup python -m torch.distributed.launch --nproc_per_node=n Raw_finetune.py > nohup.out &
 ```
-```n``` is the number of GPUs
+n is the number of GPUs.
 4.predictions of TransAnno-Net
 <br>
 ```python
