@@ -18,6 +18,10 @@ The diagram and workflows of TranAnno-Net framework is shown as below.
 ![The diagram and workflows of TranAnno-Net framework is shown as below](https://github.com/qzhangit/TransAnno-Net/blob/main/Picture/framework.png) <br>
 In the first step of this, we merge data from different sources into a unified file; in the second step, the model receives the gene expression matrix of the scRNA-seq data as input and preprocesses the data using SCANPY, including filtering of low-quality cells, normalization, as well as logarithmic transformation and selection of high-variant genes. In the third step, TransAnno-Net was pre-trained on unlabeled large-scale scRNA-seq datasets to identify potential features of cell type representations, which helps to eliminate batch effects between datasets. It is then fine-tuned on several specific artificially labeled target datasets. Finally, the model performance is fully evaluated to validate the usability and generalizability of the model.
 
+# How to use the TransAnno-Net?
+0.fully tested with Ubuntu 18.04 LTS, Python 3.8 with PyTorch 1.8.1 as the backend in a server equipped with Nvidia GTX 3090 GPUs <br>
+1.clone the repo to local directory <br>
+
 # Data
 The data can be downloaded from these links.
 https://panglaodb.se/
