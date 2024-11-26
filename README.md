@@ -44,7 +44,7 @@ python predict.py
 And congratulations, you have just used TransAnno-Net for your own data! 
 
 # Data
-The data can be downloaded from these links.
+The data can be downloaded from these links. <br>
 https://panglaodb.se/ <br>
 https://www.ncbi.nlm.nih.gov/geo/ <br>
 https://cblast.gao-lab.org/
