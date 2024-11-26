@@ -21,9 +21,7 @@ In the first step of this, we merge data from different sources into a unified f
 # How to use the TransAnno-Net?
 0.fully tested with Ubuntu 18.04 LTS, Python 3.8 with PyTorch 1.8.1 as the backend in a server equipped with Nvidia GTX 3090 GPUs <br>
 1.clone the repo to local directory <br>
-'''
-git clone https://github.com/qzhangit/TransAnno-Net.git
-'''
+'git clone https://github.com/qzhangit/TransAnno-Net.git'
 
 # Data
 The data can be downloaded from these links.
