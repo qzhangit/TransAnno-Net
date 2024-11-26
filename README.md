@@ -34,13 +34,13 @@ git clone https://github.com/qzhangit/TransAnno-Net.git
 <br>
 * Prepare your gene ```expression matrix```, convert it to ```h5ad``` format and process it with the ```preprocess.py``` file.
 *  ```data/PanglaoDB_Lung.h5ad``` file is the selected gene.
-<br>
 3.start fintune training
 <br>
 ```python
 nohup python -m torch.distributed.launch --nproc_per_node=n Raw_finetune.py > nohup.out &
 ```
 n is the number of GPUs.
+<br>
 4.predictions of TransAnno-Net
 <br>
 ```python
