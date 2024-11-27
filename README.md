@@ -41,7 +41,7 @@ nohup python -m torch.distributed.launch --nproc_per_node=n Raw_finetune.py > no
 ```python
 python predict.py
 ```
-And congratulations, you have just used TransAnno-Net for your own data! 
+And congratulations, you have just used TransAnno-Net for your own data! Please feel free to let us know if you have any questions.
 
 # Data
 The data can be downloaded from these links. <br>
