@@ -52,8 +52,8 @@ https://cblast.gao-lab.org/
 | Dataset | Species | Organ |Number of cell types | cell numbers | Gene numbers |Protocols | Accession ID |
 | :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | PanglaoDB | Mouse | Lung | \ | 100,024 | 45,549 | microwell-seq, 10x chromium, Smart-seq2, drop-seq, SMART-seq2 | (https://panglaodb.se/) |
-| GSE267861 | 〃 | 〃 | 12 | 24,520 | 32,285 | 10x chromium | GSE267861 |
-| GSE264032 | 〃 | 〃 | 16 | 31,928 | 32,285 | 10x chromium | GSE264032 |
+| GSE267861 | 〃 | 〃 | 12 | 24,520 | 32,285 | 10x chromium | [GSE267861](https://www.ncbi.nlm.nih.gov/geo/) |
+| GSE264032 | 〃 | 〃 | 16 | 31,928 | 32,285 | 10x chromium | [GSE264032](https://www.ncbi.nlm.nih.gov/geo/) |
 | ALIGNED_Mm_Lung (AML) | 〃 | 〃 | 17 | 16,599 | 25,174 | unknown | (https://cblast.gao-lab.org/) |
 | Quake_10x_Lung (Q10xL) | 〃 | 〃 | 13 | 5449 | 23,341 | 10x chromium | 〃 |
 | ALIGNED_Mm_Trachea (AMT) | 〃 | Trachea | 18 | 12,619 | 33,948 | unknown |〃 |
