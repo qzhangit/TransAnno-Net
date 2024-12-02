@@ -51,16 +51,16 @@ https://cblast.gao-lab.org/
 <br>
 | Dataset | Species | Organ |Number of cell types | cell numbers | Gene numbers |Protocols | Accession ID |
 | :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| PanglaoDB | Mouse | Lung | \ | 100024 | 45549 | microwell-seq, 10x chromium, Smart-seq2, drop-seq, SMART-seq2 | (https://panglaodb.se/) |
-| GSE267861 | 〃 | 〃 | 12 | 24520 | 32285 | 10x chromium | GSE267861 |
-| GSE264032 | 〃 | 〃 | 16 | 31928 | 32285 | 10x chromium | GSE264032 |
-| ALIGNED_Mm_Lung (AML) | 〃 | 〃 | 17 | 16599 | 25174 | unknown | (https://cblast.gao-lab.org/) |
-| Quake_10x_Lung (Q10xL) | 〃 | 〃 | 13 | 5449 | 23341 | 10x chromium | 〃 |
-| ALIGNED_Mm_Trachea (AMT) | 〃 | Trachea | 18 | 12619 | 33948 | unknown |〃 |
-| ALIGNED_Mm_Kidney (AMK) | 〃 | Kidney | 37 | 63659 | 35210 | unknown | 〃 |
-| ALIGNED_Mm_Pancreas (AMP) | 〃 | Pancreas | 22 | 3450 | 25410 | unknown | 〃 |
-| Plasschaert (PT) | 〃 | Trachea | 8 | 6977 | 28205 | inDrop | 〃 |
-| Baron_mouse (BMP) | 〃 | Pancreas | 13 | 1886 | 14877 | inDrop | 〃 |
+| PanglaoDB | Mouse | Lung | \ | 100,024 | 45,549 | microwell-seq, 10x chromium, Smart-seq2, drop-seq, SMART-seq2 | (https://panglaodb.se/) |
+| GSE267861 | 〃 | 〃 | 12 | 24,520 | 32,285 | 10x chromium | GSE267861 |
+| GSE264032 | 〃 | 〃 | 16 | 31,928 | 32,285 | 10x chromium | GSE264032 |
+| ALIGNED_Mm_Lung (AML) | 〃 | 〃 | 17 | 16,599 | 25,174 | unknown | (https://cblast.gao-lab.org/) |
+| Quake_10x_Lung (Q10xL) | 〃 | 〃 | 13 | 5449 | 23,341 | 10x chromium | 〃 |
+| ALIGNED_Mm_Trachea (AMT) | 〃 | Trachea | 18 | 12,619 | 33,948 | unknown |〃 |
+| ALIGNED_Mm_Kidney (AMK) | 〃 | Kidney | 37 | 63,659 | 35,210 | unknown | 〃 |
+| ALIGNED_Mm_Pancreas (AMP) | 〃 | Pancreas | 22 | 3450 | 25,410 | unknown | 〃 |
+| Plasschaert (PT) | 〃 | Trachea | 8 | 6977 | 28,205 | inDrop | 〃 |
+| Baron_mouse (BMP) | 〃 | Pancreas | 13 | 1886 | 14,877 | inDrop | 〃 |
 | Zheng68k (SRP073767) | Human | PBMC | 11 | 68,450 | \ | 10x chromium | (https://support.10xgenomics.com/single-cell-gene-expression/datasets) |
 
 # Who are we?
