@@ -63,5 +63,5 @@ https://cblast.gao-lab.org/
 | Baron_mouse (BMP) | 〃 | Pancreas | 13 | 1886 | 14877 | inDrop | 〃 |
 
 # Who are we?
-TransAnno-Net is proposed and maintained by researchers from [WIT](https://www.wit.edu.cn/)
+TransAnno-Net is proposed and maintained by researchers from [WIT](https://www.wit.edu.cn/).
 
