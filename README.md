@@ -61,7 +61,7 @@ https://cblast.gao-lab.org/
 | ALIGNED_Mm_Pancreas (AMP) | 〃 | Pancreas | 22 | 3450 | 25,410 | unknown | 〃 |
 | Plasschaert (PT) | 〃 | Trachea | 8 | 6977 | 28,205 | inDrop | 〃 |
 | Baron_mouse (BMP) | 〃 | Pancreas | 13 | 1886 | 14,877 | inDrop | 〃 |
-| Zheng68k (SRP073767) | Human | PBMC | 11 | 68,450 | \ | 10x chromium | (https://support.10xgenomics.com/single-cell-gene-expression/datasets) |
+| Zheng68k (SRP073767) | Human | PBMC | 11 | 68,450 | \ | 10x chromium | (https://www.ncbi.nlm.nih.gov/sra/) |
 
 # Who are we?
 TransAnno-Net is proposed and maintained by researchers from [WIT](https://www.wit.edu.cn/).
