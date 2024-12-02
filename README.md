@@ -62,3 +62,6 @@ https://cblast.gao-lab.org/
 | Plasschaert (PT) | 〃 | Trachea | 8 | 6977 | 28205 | inDrop | 〃 |
 | Baron_mouse (BMP) | 〃 | Pancreas | 13 | 1886 | 14877 | inDrop | 〃 |
 
+# Who are we?
+TransAnno-Net is proposed and maintained by researchers from https://www.wit.edu.cn/
+
