@@ -63,6 +63,8 @@ https://cblast.gao-lab.org/
 | Baron_mouse (BMP) | 〃 | Pancreas | 13 | 1886 | 14,877 | inDrop | 〃 |
 | Lung(Human) | Human | Lung | 9 | 39,778 | \ | 10x chromium | (https://doi.org/10.6084/m9.figshare.11981034.v1) |
 
+# Time Cost
+On a server running Ubuntu 20.04 with an Intel(R) Xeon(R) Gold 6271C processor, two NVIDIA GeForce GTX 4090 graphics cards, and 256GB of RAM, processing 17,000 cells takes 24 minutes.
 # Who are we?
 TransAnno-Net is proposed and maintained by researchers from [WIT](https://www.wit.edu.cn/).
 
